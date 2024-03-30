@@ -7,7 +7,7 @@
 // output : x =10 -----> output : false
 
 const isPalindrome = (x) => {
-    return x === +x.toString().split("").reverse().join("");
+    return x<0 ? false : ( x.toString().split("").reverse().join(""));
 
 };
 
