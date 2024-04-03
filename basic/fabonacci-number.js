@@ -25,3 +25,13 @@ var fib = function (n) {
 
 // Call the fib function with input 5
 fib(5); // Output: 5
+
+// Recursive Solution
+
+const fib = function (n) {
+    if (n<=1) return n;
+
+    return fib(n-1) + fib(n-2);
+
+};
+
