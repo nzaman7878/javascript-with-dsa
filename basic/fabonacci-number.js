@@ -35,3 +35,9 @@ const fib = function (n) {
 
 };
 
+// one liner
+
+const fib = (n) => (n <= 1 ? n : fib(n-1) + fib(n-2));
+
+// n = 3 => 1 + 1 = 2
+// fib(2) = > 0 + 1 => 1
