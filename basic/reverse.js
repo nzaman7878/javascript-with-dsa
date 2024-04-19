@@ -12,4 +12,5 @@ function reverseInteger(x) {
 
 // Example usage:
 const num = 123;
-console.log(reverseInteger(num)); // Output: 321
+console.log(reverseInteger(num)); 
+// Output: 321
